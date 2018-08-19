@@ -1,0 +1,84 @@
+
+ {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container-fluid {
+    height: 100%;
+    padding: 0;
+}
+
+#mainContent {
+    height: 100%;
+}
+
+#topBar {
+    height: 60px;
+    background-color: #007bff;
+}
+
+/**
+ * Canvas
+ */
+
+#whiteboard {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.sideBar {
+    position: fixed;
+    width: 60px;
+    height: 100%;
+    background-color: #007bff;
+    padding-top: 10px;
+}
+
+.color {
+    display: block;
+    margin-left: 6px;
+    height: 48px;
+    width: 48px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.color.black {
+    background-color: black;
+}
+
+.color.red {
+    background-color: red;
+}
+
+.color.green {
+    background-color: green;
+}
+
+.color.blue {
+    background-color: blue;
+}
+
+.color.yellow {
+    background-color: yellow;
+}
+
+.color.white {
+    background-color: white;
+}
+
+#topBar button {
+    background-color: #344148;
+}
